@@ -18,7 +18,7 @@ class pedido extends StatelessWidget {
           child: Column(
             children: [
               Spacer(flex: 2),
-              titleText("Este es el pedido del cliente"),
+              titleText("Este es el pedido del cliente 1"),
               Spacer(flex: 2),
               Image(image: AssetImage("assets/pedido.png")),
               Spacer(flex: 2),

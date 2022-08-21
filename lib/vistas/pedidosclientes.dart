@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:restaurante/widgets/wcWidgets.dart';
-import 'package:restaurante/vistas/pedidosclientes.dart';
+import 'package:restaurante/vistas/pedido.dart';
 
-class inicioMeseros extends StatelessWidget {
-  const inicioMeseros({Key? key}) : super(key: key);
+class pedidosclientes extends StatelessWidget {
+  const pedidosclientes({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,42 +18,32 @@ class inicioMeseros extends StatelessWidget {
           ),
           child: Column(
             children: [
-              Image(image: AssetImage("assets/mesero.png")),
               Spacer(flex: 2),
-              titleText("Sign In"),
-              SizedBox(height: 8),
-              subTitleText("Conéctate para ordenar el pedido del cliente"),
+              titleText("Domicilios ChalaTv"),
+              Spacer(flex: 2),
+              Image(image: AssetImage("assets/orden.png")),
+              Spacer(flex: 2),
               Spacer(),
               SizedBox(
                 width: 180,
                 child: TextField(
                   decoration: InputDecoration(
-                    hintText: "Usuario",
+                    hintText: "Cliente 1",
                   ),
                 ),
               ),
-              SizedBox(height: 10),
-              SizedBox(
-                width: 180,
-                child: TextField(
-                  obscureText: true,
-                  decoration: InputDecoration(
-                    hintText: "Contraseña",
-                  ),
-                ),
-              ),
-              Spacer(flex: 2),
+              Spacer(),
               largeButton(() {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return pedidosclientes();
+                      return pedido();
                     },
                   ),
                 );
-              }, Color(0xFF41F2C0), "Sign In"),
-              Spacer(flex: 1),
+              }, Color(0xFF41F2C0), "Cliente 1"),
+              Spacer(),
               largeButton(() {
                 Navigator.pop(context);
               }, Color(0xFF41F2C0), "Regresar"),
