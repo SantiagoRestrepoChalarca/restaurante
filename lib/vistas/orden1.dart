@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:restaurante/vistas/chef.dart';
 import 'package:restaurante/widgets/wcWidgets.dart';
-import 'package:restaurante/vistas/pedido.dart';
 
-class pedidosclientes extends StatelessWidget {
-  const pedidosclientes({Key? key}) : super(key: key);
+class orden1 extends StatelessWidget {
+  const orden1({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -19,30 +19,20 @@ class pedidosclientes extends StatelessWidget {
           child: Column(
             children: [
               Spacer(flex: 2),
-              titleText("Pedidos clientes"),
+              titleText("Pronto el chef nos dira como va la orden"),
               Spacer(flex: 2),
               Image(image: AssetImage("assets/orden.png")),
               Spacer(flex: 2),
-              Spacer(),
-              SizedBox(
-                width: 180,
-                child: TextField(
-                  decoration: InputDecoration(
-                    hintText: "Cliente 1",
-                  ),
-                ),
-              ),
-              Spacer(),
               largeButton(() {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return pedido();
+                      return chef();
                     },
                   ),
                 );
-              }, Color(0xFF41F2C0), "Cliente 1"),
+              }, Color(0xFF41F2C0), "Verificacion del chef"),
               Spacer(),
               largeButton(() {
                 Navigator.pop(context);

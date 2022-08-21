@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:restaurante/vistas/chef.dart';
 import 'package:restaurante/widgets/wcWidgets.dart';
+import 'package:restaurante/vistas/orden1.dart';
 
 class pedido extends StatelessWidget {
   const pedido({Key? key}) : super(key: key);
@@ -29,7 +30,7 @@ class pedido extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return chef();
+                      return orden1();
                     },
                   ),
                 );
