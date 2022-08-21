@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:restaurante/vistas/chef.dart';
+import 'package:restaurante/vistas/pedidosclientes.dart';
 import 'package:restaurante/widgets/wcWidgets.dart';
 import 'package:restaurante/vistas/pedido.dart';
 
@@ -49,7 +50,7 @@ class iniciochef extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return chef();
+                      return pedidosclientes();
                     },
                   ),
                 );
