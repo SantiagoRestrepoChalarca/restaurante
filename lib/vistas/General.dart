@@ -35,7 +35,7 @@ class General extends StatelessWidget {
                     },
                   ),
                 );
-              }, Color(0xFF41F2C0), "Menu"),
+              }, Color.fromARGB(255, 224, 187, 20), "Menu"),
               Spacer(),
               largeButton(() {
                 Navigator.push(
@@ -46,7 +46,7 @@ class General extends StatelessWidget {
                     },
                   ),
                 );
-              }, Color(0xFF41F2C0), "Dirección"),
+              }, Color.fromARGB(255, 224, 187, 20), "Dirección"),
               Spacer(),
               largeButton(() {
                 Navigator.push(
@@ -57,7 +57,7 @@ class General extends StatelessWidget {
                     },
                   ),
                 );
-              }, Color(0xFF41F2C0), "Reserva"),
+              }, Color.fromARGB(255, 224, 187, 20), "Reserva"),
               Spacer(),
               largeButton(() {
                 Navigator.push(
@@ -68,7 +68,7 @@ class General extends StatelessWidget {
                     },
                   ),
                 );
-              }, Color(0xFF41F2C0), "Domicilio"),
+              }, Color.fromARGB(255, 224, 187, 20), "Domicilio"),
               Spacer(),
               largeButton(() {
                 Navigator.push(
@@ -79,11 +79,11 @@ class General extends StatelessWidget {
                     },
                   ),
                 );
-              }, Color(0xFF41F2C0), "Realizar pago"),
+              }, Color.fromARGB(255, 224, 187, 20), "Realizar pago"),
               Spacer(),
               largeButton(() {
                 Navigator.pop(context);
-              }, Color(0xFF41F2C0), "Regresar"),
+              }, Color.fromARGB(255, 224, 187, 20), "Regresar"),
               Spacer(flex: 2),
             ],
           ),
