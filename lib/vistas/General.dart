@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:restaurante/widgets/wcWidgets.dart';
 import 'package:restaurante/vistas/menu.dart';
 import 'package:restaurante/vistas/direccion.dart';
-import 'package:restaurante/vistas/descuentos.dart';
 import 'package:restaurante/vistas/reserva.dart';
 import 'package:restaurante/vistas/domicilio.dart';
 import 'package:restaurante/vistas/pago.dart';
@@ -26,7 +25,7 @@ class General extends StatelessWidget {
             children: [
               Image(image: AssetImage("assets/cliente.png")),
               Spacer(flex: 2),
-              subTitleText("Aqui encontraran todo acerca del restaurante"),
+              subTitleText("Aqui esta todo lo que un gamer necesita"),
               Spacer(),
               largeButton(() {
                 Navigator.push(
@@ -38,17 +37,6 @@ class General extends StatelessWidget {
                   ),
                 );
               }, Color(0xFF41F2C0), "Menu"),
-              Spacer(),
-              largeButton(() {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return descuentos();
-                    },
-                  ),
-                );
-              }, Color(0xFF41F2C0), "Descuentos"),
               Spacer(),
               largeButton(() {
                 Navigator.push(

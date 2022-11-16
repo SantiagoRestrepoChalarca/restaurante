@@ -20,7 +20,7 @@ class Iniciosesion extends StatelessWidget {
             children: [
               Image(image: AssetImage("assets/mesero.png")),
               Spacer(flex: 2),
-              titleText("Sign In"),
+              titleText("Play"),
               SizedBox(height: 8),
               subTitleText("Conéctate con nosotros"),
               Spacer(),
