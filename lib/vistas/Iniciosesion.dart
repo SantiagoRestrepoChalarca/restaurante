@@ -22,7 +22,7 @@ class inicioMeseros extends StatelessWidget {
               Spacer(flex: 2),
               titleText("Sign In"),
               SizedBox(height: 8),
-              subTitleText("Conéctate para ordenar el pedido del cliente"),
+              subTitleText("Conéctate con nosotros"),
               Spacer(),
               SizedBox(
                 width: 180,

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:restaurante/vistas/inicioMeseros.dart';
+import 'package:restaurante/vistas/Iniciosesion.dart';
 import 'package:restaurante/widgets/wcWidgets.dart';
 import 'package:restaurante/vistas/clientes.dart';
 
@@ -22,9 +22,9 @@ class WelcomePage extends StatelessWidget {
         child: Column(
           children: [
             Spacer(flex: 2),
-            titleText("ChalaTv Restaurante"),
+            titleText("Restaurante LosGamers"),
             Spacer(flex: 1),
-            subTitleText("Esta es la pagina principal del restaurante"),
+            subTitleText("Bienvenidos a la felicidad"),
             Spacer(flex: 2),
             const Image(image: AssetImage("assets/logo.png")),
             Spacer(flex: 2),
@@ -40,7 +40,7 @@ class WelcomePage extends StatelessWidget {
                 );
               },
               Color(0xFF41F2C0),
-              "Meseros",
+              "Iniciar sesion",
             ),
             Spacer(flex: 1),
             largeButton(
@@ -55,7 +55,7 @@ class WelcomePage extends StatelessWidget {
                 );
               },
               Color(0xFF41F2C0),
-              "Cliente",
+              "Registrarse",
             ),
             Spacer(flex: 1),
            
