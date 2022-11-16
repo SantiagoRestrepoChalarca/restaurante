@@ -10,8 +10,8 @@ class pedido extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Container(
-          width: 280,
-          height: 620,
+          width: 1440,
+          height: 1080,
           decoration: BoxDecoration(
             color: const Color(0xFFF2E8DF),
             borderRadius: BorderRadius.circular(10),

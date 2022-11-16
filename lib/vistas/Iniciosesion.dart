@@ -10,16 +10,15 @@ class Iniciosesion extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Container(
-          width: 280,
-          height: 620,
+          width: 1440,
+          height: 1080,
           decoration: BoxDecoration(
             color: const Color(0xFFF2E8DF),
             borderRadius: BorderRadius.circular(10),
           ),
           child: Column(
             children: [
-              Image(image: AssetImage("assets/mesero.png")),
-              Spacer(flex: 2),
+              Image(image: AssetImage("assets/Iniciosesion.png")),
               titleText("Play"),
               SizedBox(height: 8),
               subTitleText("Conéctate con nosotros"),

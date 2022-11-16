@@ -25,7 +25,8 @@ flutter:
 
   assets:
     - assets/logo.png
-    - assets/mesero.png
+    - assets/Iniciosesion.png
+    - assets/registro.png
     - assets/cliente.png
     - assets/menu.png
     - assets/direccion.png
