@@ -27,7 +27,6 @@ flutter:
     - assets/logo.png
     - assets/mesero.png
     - assets/cliente.png
-    - assets/chef.png
     - assets/menu.png
     - assets/direccion.png
     - assets/descuentos.png
@@ -37,5 +36,4 @@ flutter:
     - assets/proceso.png
     - assets/listo.png
     - assets/pedido.png
-    - assets/logochef.png
     - assets/orden.png

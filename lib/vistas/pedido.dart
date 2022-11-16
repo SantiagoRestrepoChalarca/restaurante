@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:restaurante/vistas/chef.dart';
 import 'package:restaurante/widgets/wcWidgets.dart';
-import 'package:restaurante/vistas/orden1.dart';
+
 
 class pedido extends StatelessWidget {
   const pedido({Key? key}) : super(key: key);
@@ -25,17 +24,7 @@ class pedido extends StatelessWidget {
               Image(image: AssetImage("assets/pedido.png")),
               Spacer(flex: 2),
               Spacer(),
-              largeButton(() {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return orden1();
-                    },
-                  ),
-                );
-              }, Color(0xFF41F2C0), "Orden cliente 1"),
-              Spacer(),
+             
               largeButton(() {
                 Navigator.pop(context);
               }, Color(0xFF41F2C0), "Regresar"),

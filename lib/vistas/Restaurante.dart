@@ -4,8 +4,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:restaurante/vistas/inicioMeseros.dart';
 import 'package:restaurante/widgets/wcWidgets.dart';
 import 'package:restaurante/vistas/clientes.dart';
-import 'package:restaurante/vistas/chef.dart';
-import 'package:restaurante/vistas/iniciochef.dart';
+
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({Key? key}) : super(key: key);
@@ -59,20 +58,7 @@ class WelcomePage extends StatelessWidget {
               "Cliente",
             ),
             Spacer(flex: 1),
-            largeButton(
-              () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return iniciochef();
-                    },
-                  ),
-                );
-              },
-              Color(0xFF41F2C0),
-              "Chef",
-            ),
+           
             Spacer(flex: 2),
           ],
         ),
