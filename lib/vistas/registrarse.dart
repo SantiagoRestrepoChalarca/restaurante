@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:restaurante/vistas/General.dart';
+import 'package:restaurante/vistas/registrarse.dart';
+import 'package:restaurante/widgets/wcWidgets.dart';
 import 'package:restaurante/widgets/wcWidgets.dart';
 
-class Iniciosesion extends StatelessWidget {
-  const Iniciosesion({Key? key}) : super(key: key);
+class registrarse extends StatelessWidget {
+  const registrarse({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -20,9 +22,9 @@ class Iniciosesion extends StatelessWidget {
             children: [
               Image(image: AssetImage("assets/mesero.png")),
               Spacer(flex: 2),
-              titleText("Sign In"),
+              titleText("Registro"),
               SizedBox(height: 8),
-              subTitleText("Conéctate con nosotros"),
+              subTitleText("Registrate con nosotros"),
               Spacer(),
               SizedBox(
                 width: 180,

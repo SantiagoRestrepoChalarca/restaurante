@@ -6,9 +6,10 @@ import 'package:restaurante/vistas/descuentos.dart';
 import 'package:restaurante/vistas/reserva.dart';
 import 'package:restaurante/vistas/domicilio.dart';
 import 'package:restaurante/vistas/pago.dart';
+import 'package:restaurante/vistas/Iniciosesion.dart';
 
-class clientes extends StatelessWidget {
-  const clientes({Key? key}) : super(key: key);
+class General extends StatelessWidget {
+  const General({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

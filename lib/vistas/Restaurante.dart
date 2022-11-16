@@ -3,8 +3,7 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:restaurante/vistas/Iniciosesion.dart';
 import 'package:restaurante/widgets/wcWidgets.dart';
-import 'package:restaurante/vistas/clientes.dart';
-
+import 'package:restaurante/vistas/registrarse.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({Key? key}) : super(key: key);
@@ -22,9 +21,11 @@ class WelcomePage extends StatelessWidget {
         child: Column(
           children: [
             Spacer(flex: 2),
-            titleText("Restaurante LosGamers"),
-            Spacer(flex: 1),
             subTitleText("Bienvenidos a la felicidad"),
+            Spacer(flex: 1),
+            Center(
+              child: Text("Restaurante LosGamers"),
+            ),
             Spacer(flex: 2),
             const Image(image: AssetImage("assets/logo.png")),
             Spacer(flex: 2),
@@ -34,7 +35,7 @@ class WelcomePage extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return inicioMeseros();
+                      return Iniciosesion();
                     },
                   ),
                 );
@@ -49,7 +50,7 @@ class WelcomePage extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return clientes();
+                      return registrarse();
                     },
                   ),
                 );
@@ -58,7 +59,6 @@ class WelcomePage extends StatelessWidget {
               "Registrarse",
             ),
             Spacer(flex: 1),
-           
             Spacer(flex: 2),
           ],
         ),
