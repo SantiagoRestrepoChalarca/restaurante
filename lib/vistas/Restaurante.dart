@@ -12,8 +12,8 @@ class WelcomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        width: 280,
-        height: 620,
+        width: 1440,
+        height: 1080,
         decoration: BoxDecoration(
           color: const Color(0xFFF2E8DF),
           borderRadius: BorderRadius.circular(10),
@@ -21,10 +21,10 @@ class WelcomePage extends StatelessWidget {
         child: Column(
           children: [
             Spacer(flex: 2),
-            subTitleText("Bienvenidos a la felicidad"),
+            titleText("Bienvenidos a la felicidad"),
             Spacer(flex: 1),
             Center(
-              child: Text("Restaurante LosGamers"),
+              child: titleText("Restaurante LosGamers"),
             ),
             Spacer(flex: 2),
             const Image(image: AssetImage("assets/logo.png")),
@@ -40,7 +40,7 @@ class WelcomePage extends StatelessWidget {
                   ),
                 );
               },
-              Color(0xFF41F2C0),
+              Color.fromARGB(255, 224, 187, 20),
               "Iniciar sesion",
             ),
             Spacer(flex: 1),
@@ -55,11 +55,13 @@ class WelcomePage extends StatelessWidget {
                   ),
                 );
               },
-              Color(0xFF41F2C0),
+              Color.fromARGB(255, 224, 187, 20),
               "Registrarse",
             ),
             Spacer(flex: 1),
+            
             Spacer(flex: 2),
+            
           ],
         ),
       ),
