@@ -43,6 +43,8 @@ class WelcomePage extends StatelessWidget {
               Color.fromARGB(255, 224, 187, 20),
               "Iniciar sesion",
             ),
+            Spacer(flex: 2),
+            subTitleText("¿Nuevo usuario?"),
             Spacer(flex: 1),
             largeButton(
               () {
@@ -59,9 +61,7 @@ class WelcomePage extends StatelessWidget {
               "Registrarse",
             ),
             Spacer(flex: 1),
-            
             Spacer(flex: 2),
-            
           ],
         ),
       ),

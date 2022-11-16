@@ -42,7 +42,7 @@ class pago extends StatelessWidget {
                 ),
               ),
               Spacer(),
-              largeButton(() {}, Color(0xFF41F2C0), "Pagar"),
+              largeButton(() {}, Color.fromARGB(255, 224, 187, 20), "Pagar"),
               Spacer(flex: 2),
               largeButton(() {
                 Navigator.pop(context);

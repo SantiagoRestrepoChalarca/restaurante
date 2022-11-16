@@ -41,11 +41,12 @@ class domicilio extends StatelessWidget {
                 ),
               ),
               Spacer(),
-              largeButton(() {}, Color(0xFF41F2C0), "Enviar pedido"),
+              largeButton(
+                  () {}, Color.fromARGB(255, 224, 187, 20), "Enviar pedido"),
               Spacer(),
               largeButton(() {
                 Navigator.pop(context);
-              }, Color(0xFF41F2C0), "Regresar"),
+              }, Color.fromARGB(255, 224, 187, 20), "Regresar"),
               Spacer(flex: 2),
             ],
           ),

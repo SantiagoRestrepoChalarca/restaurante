@@ -18,17 +18,17 @@ class menu extends StatelessWidget {
           child: Column(
             children: [
               Spacer(flex: 2),
-              titleText("Menu ChalaTv"),
+              titleText("Menu Gamer"),
               Spacer(flex: 2),
               Image(
-                image: AssetImage("assets/menu.png"),
+                image: AssetImage(""),
                 width: 500,
                 height: 500,
               ),
               Spacer(flex: 2),
               largeButton(() {
                 Navigator.pop(context);
-              }, Color(0xFF41F2C0), "Regresar"),
+              }, Color.fromARGB(255, 224, 187, 20), "Regresar"),
               Spacer(flex: 2),
             ],
           ),

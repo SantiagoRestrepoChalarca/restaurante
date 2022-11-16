@@ -49,11 +49,11 @@ class reserva extends StatelessWidget {
                 ),
               ),
               Spacer(flex: 2),
-              largeButton(() {}, Color(0xFF41F2C0), "Reservar"),
+              largeButton(() {}, Color.fromARGB(255, 224, 187, 20), "Reservar"),
               Spacer(flex: 2),
               largeButton(() {
                 Navigator.pop(context);
-              }, Color(0xFF41F2C0), "Regresar"),
+              }, Color.fromARGB(255, 224, 187, 20), "Regresar"),
               Spacer(flex: 2),
             ],
           ),
