@@ -83,6 +83,21 @@ class menu extends StatelessWidget {
                 ],
               ),
               Spacer(flex: 2),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Center(
+                    child: Text("La Salvadora 14k"),
+                  ),
+                  Center(
+                    child: Text("Perpetua 18k"),
+                  ),
+                  Center(
+                    child: Text("Col 28k"),
+                  ),
+                ],
+              ),
+                Spacer(flex: 2),
               largeButton(() {
                 Navigator.pop(context);
               }, Color.fromARGB(255, 224, 187, 20), "Regresar"),
