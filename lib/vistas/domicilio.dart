@@ -19,7 +19,7 @@ class domicilio extends StatelessWidget {
           child: Column(
             children: [
               Spacer(flex: 2),
-              titleText("Domicilios ChalaTv"),
+              titleText("Domicilios LosGamers"),
               Spacer(flex: 2),
               Image(image: AssetImage("assets/domicilio.png")),
               Spacer(flex: 2),
@@ -33,14 +33,6 @@ class domicilio extends StatelessWidget {
                 ),
               ),
               Spacer(),
-              SizedBox(
-                width: 180,
-                child: TextField(
-                  decoration: InputDecoration(
-                    hintText: "Elija metodo de pago",
-                  ),
-                ),
-              ),
               Spacer(),
               largeButton(() {
                 Navigator.push(

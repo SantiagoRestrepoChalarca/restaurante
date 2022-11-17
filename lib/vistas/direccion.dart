@@ -18,17 +18,18 @@ class direccion extends StatelessWidget {
           child: Column(
             children: [
               Spacer(flex: 2),
-              titleText("Dirección ChalaTv"),
+              titleText("Dirección LosGamers "),
               Spacer(),
-              subTitleText("Calle cualquiera # 123 "),
-              subTitleText("Calle cualquiera # 234 "),
-              subTitleText("Calle cualquiera # 345 "),
+              subTitleText("la Mota "),
+              subTitleText("calle 23a #43b-62"),
+              subTitleText("San Javier"),
+              subTitleText("Carrera 34 #32-52"),
+              subTitleText("Manrique"),
+              subTitleText("Carrera 45 #75-73"),
+              
               Spacer(flex: 2),
               Image(image: AssetImage("assets/direccion.png")),
               Spacer(flex: 2),
-              subTitleText("Calle cualquiera # 456 "),
-              subTitleText("Calle cualquiera # 567 "),
-              subTitleText("Calle cualquiera # 678 "),
               Spacer(),
               largeButton(() {
                 Navigator.pop(context);

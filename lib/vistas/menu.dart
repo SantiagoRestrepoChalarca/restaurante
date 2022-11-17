@@ -52,6 +52,37 @@ class menu extends StatelessWidget {
                 ],
               ),
               Spacer(flex: 2),
+               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Center(
+                    child: Text("PoderEspecial 20k"),
+                  ),
+                  Center(
+                    child: Text("LaAsesina 19k"),
+                  ),
+                  Center(
+                    child: Text("Mastodonte 30k"),
+                  ),
+                ],
+              ),
+              
+              Spacer(flex: 2),
+               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Center(
+                    child: Text("DestrozaCraneos 22k"),
+                  ),
+                  Center(
+                    child: Text("Asesinada 16k"),
+                  ),
+                  Center(
+                    child: Text("Dinotrueno 20k"),
+                  ),
+                ],
+              ),
+              Spacer(flex: 2),
               largeButton(() {
                 Navigator.pop(context);
               }, Color.fromARGB(255, 224, 187, 20), "Regresar"),

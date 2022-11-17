@@ -27,7 +27,7 @@ class pago extends StatelessWidget {
                 width: 180,
                 child: TextField(
                   decoration: InputDecoration(
-                    hintText: "Tarjeta debito",
+                    hintText: "Elija Su Metodo de pago",
                   ),
                 ),
               ),
@@ -37,7 +37,7 @@ class pago extends StatelessWidget {
                 child: TextField(
                   obscureText: true,
                   decoration: InputDecoration(
-                    hintText: "Clave dinamica",
+                    hintText: "total en carrito",
                   ),
                 ),
               ),
