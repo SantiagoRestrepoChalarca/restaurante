@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:restaurante/widgets/wcWidgets.dart';
+import 'package:restaurante/vistas/pago.dart';
 
 class domicilio extends StatelessWidget {
   const domicilio({Key? key}) : super(key: key);
@@ -41,8 +42,16 @@ class domicilio extends StatelessWidget {
                 ),
               ),
               Spacer(),
-              largeButton(
-                  () {}, Color.fromARGB(255, 224, 187, 20), "Enviar pedido"),
+              largeButton(() {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return pago();
+                    },
+                  ),
+                );
+              }, Color.fromARGB(255, 224, 187, 20), "Enviar pedido"),
               Spacer(),
               largeButton(() {
                 Navigator.pop(context);

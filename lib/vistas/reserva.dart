@@ -18,7 +18,7 @@ class reserva extends StatelessWidget {
           child: Column(
             children: [
               Spacer(flex: 2),
-              titleText("Reserva ChalaTv"),
+              titleText("Reserva LosGamers"),
               Spacer(flex: 2),
               Image(image: AssetImage("assets/reserva.png")),
               Spacer(),

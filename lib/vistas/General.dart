@@ -4,7 +4,6 @@ import 'package:restaurante/vistas/menu.dart';
 import 'package:restaurante/vistas/direccion.dart';
 import 'package:restaurante/vistas/reserva.dart';
 import 'package:restaurante/vistas/domicilio.dart';
-import 'package:restaurante/vistas/pago.dart';
 import 'package:restaurante/vistas/Iniciosesion.dart';
 
 class General extends StatelessWidget {
@@ -69,17 +68,6 @@ class General extends StatelessWidget {
                   ),
                 );
               }, Color.fromARGB(255, 224, 187, 20), "Domicilio"),
-              Spacer(),
-              largeButton(() {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return pago();
-                    },
-                  ),
-                );
-              }, Color.fromARGB(255, 224, 187, 20), "Realizar pago"),
               Spacer(),
               largeButton(() {
                 Navigator.pop(context);

@@ -18,12 +18,52 @@ class menu extends StatelessWidget {
           child: Column(
             children: [
               Spacer(flex: 2),
-              titleText("Menu Gamer"),
+              titleText("Menu Gamers"),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Center(
+                    child: titleText("Hamburguesa"),
+                  ),
+                  Center(
+                    child: titleText("Perro"),
+                  ),
+                  Center(
+                    child: titleText("Salchipapas"),
+                  ),
+                ],
+              ),
               Spacer(flex: 2),
-              Image(
-                image: AssetImage(""),
-                width: 500,
-                height: 500,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Center(
+                    child: Image.asset('assets/hamburguesa.png'),
+                  ),
+                  Center(
+                    child: Image.asset('assets/perro.png'),
+                  ),
+                  Center(
+                    child: Image.asset('assets/salchipapas.png'),
+                  ),
+                ],
+              ),
+              Spacer(
+                flex: 2,
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Center(
+                    child: titleText("Hamburguesa"),
+                  ),
+                  Center(
+                    child: titleText("Perro"),
+                  ),
+                  Center(
+                    child: titleText("Salchipapas"),
+                  ),
+                ],
               ),
               Spacer(flex: 2),
               largeButton(() {

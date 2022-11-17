@@ -18,7 +18,7 @@ class pago extends StatelessWidget {
           child: Column(
             children: [
               Spacer(flex: 2),
-              titleText("Realizar el pago al Restaurante ChalaTv"),
+              titleText("Realizar el pago al Restaurante LosGamers"),
               Spacer(flex: 2),
               Image(image: AssetImage("assets/pago.png")),
               Spacer(flex: 2),
@@ -46,7 +46,7 @@ class pago extends StatelessWidget {
               Spacer(flex: 2),
               largeButton(() {
                 Navigator.pop(context);
-              }, Color(0xFF41F2C0), "Regresar"),
+              }, Color.fromARGB(255, 224, 187, 20), "Regresar"),
               Spacer(flex: 2),
             ],
           ),
