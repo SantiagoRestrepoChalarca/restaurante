@@ -19,20 +19,6 @@ class menu extends StatelessWidget {
             children: [
               Spacer(flex: 2),
               titleText("Menu Gamers"),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Center(
-                    child: titleText("Hamburguesa"),
-                  ),
-                  Center(
-                    child: titleText("Perro"),
-                  ),
-                  Center(
-                    child: titleText("Salchipapas"),
-                  ),
-                ],
-              ),
               Spacer(flex: 2),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
