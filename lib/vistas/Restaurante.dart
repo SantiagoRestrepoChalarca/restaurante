@@ -21,10 +21,10 @@ class WelcomePage extends StatelessWidget {
         child: Column(
           children: [
             Spacer(flex: 2),
-            titleText("Bienvenidos a la felicidad"),
+            titleText("BIENVENIDOS A LA FELICIDAD"),
             Spacer(flex: 1),
             Center(
-              child: titleText("Restaurante LosGamers"),
+              child: titleText("RESTAURANTE LOSGAMERS"),
             ),
             Spacer(flex: 2),
             const Image(image: AssetImage("assets/logo.png")),
@@ -41,7 +41,7 @@ class WelcomePage extends StatelessWidget {
                 );
               },
               Color.fromARGB(255, 224, 187, 20),
-              "Iniciar sesion",
+              "INICIAR SESION",
             ),
             Spacer(flex: 2),
             subTitleText("¿Nuevo usuario?"),
@@ -58,7 +58,7 @@ class WelcomePage extends StatelessWidget {
                 );
               },
               Color.fromARGB(255, 224, 187, 20),
-              "Registrarse",
+              "REGISTRARSE",
             ),
             Spacer(flex: 1),
             Spacer(flex: 2),

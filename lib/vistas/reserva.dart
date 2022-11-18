@@ -18,7 +18,7 @@ class reserva extends StatelessWidget {
           child: Column(
             children: [
               Spacer(flex: 2),
-              titleText("Reserva LosGamers"),
+              titleText("RESERVA LOSGAMERS"),
               Spacer(flex: 2),
               Image(image: AssetImage("assets/reserva.png")),
               Spacer(),
@@ -49,11 +49,11 @@ class reserva extends StatelessWidget {
                 ),
               ),
               Spacer(flex: 2),
-              largeButton(() {}, Color.fromARGB(255, 224, 187, 20), "Reservar"),
+              largeButton(() {}, Color.fromARGB(255, 224, 187, 20), "RESERVAR"),
               Spacer(flex: 2),
               largeButton(() {
                 Navigator.pop(context);
-              }, Color.fromARGB(255, 224, 187, 20), "Regresar"),
+              }, Color.fromARGB(255, 224, 187, 20), "REGRESAR"),
               Spacer(flex: 2),
             ],
           ),

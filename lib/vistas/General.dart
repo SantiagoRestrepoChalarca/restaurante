@@ -23,7 +23,7 @@ class General extends StatelessWidget {
           child: Column(
             children: [
               Image(image: AssetImage("assets/cliente.png")),
-              titleText("Aqui esta todo lo que un Gamer necesita"),
+              titleText("AQUI ESTA TODO LO QUE UN GAMER NECESITA"),
               Spacer(),
               largeButton(() {
                 Navigator.push(
@@ -34,7 +34,7 @@ class General extends StatelessWidget {
                     },
                   ),
                 );
-              }, Color.fromARGB(255, 224, 187, 20), "Menu"),
+              }, Color.fromARGB(255, 224, 187, 20), "MENU"),
               Spacer(),
               largeButton(() {
                 Navigator.push(
@@ -45,7 +45,7 @@ class General extends StatelessWidget {
                     },
                   ),
                 );
-              }, Color.fromARGB(255, 224, 187, 20), "Dirección"),
+              }, Color.fromARGB(255, 224, 187, 20), "DIRECCION"),
               Spacer(),
               largeButton(() {
                 Navigator.push(
@@ -56,7 +56,7 @@ class General extends StatelessWidget {
                     },
                   ),
                 );
-              }, Color.fromARGB(255, 224, 187, 20), "Reserva"),
+              }, Color.fromARGB(255, 224, 187, 20), "RESERVA"),
               Spacer(),
               largeButton(() {
                 Navigator.push(
@@ -67,11 +67,11 @@ class General extends StatelessWidget {
                     },
                   ),
                 );
-              }, Color.fromARGB(255, 224, 187, 20), "Domicilio"),
+              }, Color.fromARGB(255, 224, 187, 20), "DOMICILIO"),
               Spacer(),
               largeButton(() {
                 Navigator.pop(context);
-              }, Color.fromARGB(255, 224, 187, 20), "Regresar"),
+              }, Color.fromARGB(255, 224, 187, 20), "REGRESAR"),
               Spacer(flex: 2),
             ],
           ),

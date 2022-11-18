@@ -19,7 +19,7 @@ class domicilio extends StatelessWidget {
           child: Column(
             children: [
               Spacer(flex: 2),
-              titleText("Domicilios LosGamers"),
+              titleText("DOMICILIOS LOSGAMERS"),
               Spacer(flex: 2),
               Image(image: AssetImage("assets/domicilio.png")),
               Spacer(flex: 2),
@@ -43,11 +43,11 @@ class domicilio extends StatelessWidget {
                     },
                   ),
                 );
-              }, Color.fromARGB(255, 224, 187, 20), "Enviar pedido"),
+              }, Color.fromARGB(255, 224, 187, 20), "ENVIAR PEDIDO"),
               Spacer(),
               largeButton(() {
                 Navigator.pop(context);
-              }, Color.fromARGB(255, 224, 187, 20), "Regresar"),
+              }, Color.fromARGB(255, 224, 187, 20), "REGRESAR"),
               Spacer(flex: 2),
             ],
           ),

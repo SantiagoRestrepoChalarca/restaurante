@@ -19,9 +19,9 @@ class Iniciosesion extends StatelessWidget {
           child: Column(
             children: [
               Image(image: AssetImage("assets/Iniciosesion.png")),
-              titleText("Play"),
-              SizedBox(height: 8),
-              subTitleText("Conéctate con nosotros"),
+              titleText("PLAY"),
+              SizedBox(height: 4),
+              subTitleText("CONECTATE CON NOSOTROS"),
               Spacer(),
               SizedBox(
                 width: 180,
@@ -51,11 +51,11 @@ class Iniciosesion extends StatelessWidget {
                     },
                   ),
                 );
-              }, Color.fromARGB(255, 224, 187, 20), "Sign In"),
+              }, Color.fromARGB(255, 224, 187, 20), "SIGN IN"),
               Spacer(flex: 1),
               largeButton(() {
                 Navigator.pop(context);
-              }, Color.fromARGB(255, 224, 187, 20), "Regresar"),
+              }, Color.fromARGB(255, 224, 187, 20), "REGRESAR"),
               Spacer(flex: 2),
             ],
           ),

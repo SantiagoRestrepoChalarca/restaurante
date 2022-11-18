@@ -93,7 +93,7 @@ class menu extends StatelessWidget {
                     child: Text("Perpetua 18k"),
                   ),
                   Center(
-                    child: Text("Col 28k"),
+                    child: Text("WestCol 28k"),
                   ),
                 ],
               ),

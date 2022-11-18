@@ -18,7 +18,7 @@ class pago extends StatelessWidget {
           child: Column(
             children: [
               Spacer(flex: 2),
-              titleText("Realizar el pago al Restaurante LosGamers"),
+              titleText("PAGO ELECTRONICO"),
               Spacer(flex: 2),
               Image(image: AssetImage("assets/pago.png")),
               Spacer(flex: 2),
@@ -27,7 +27,7 @@ class pago extends StatelessWidget {
                 width: 180,
                 child: TextField(
                   decoration: InputDecoration(
-                    hintText: "Elija Su Metodo de pago",
+                    hintText: "Elija Su Web de Pago",
                   ),
                 ),
               ),
@@ -37,7 +37,7 @@ class pago extends StatelessWidget {
                 child: TextField(
                   obscureText: true,
                   decoration: InputDecoration(
-                    hintText: "total en carrito",
+                    hintText: "PAGO TO",
                   ),
                 ),
               ),

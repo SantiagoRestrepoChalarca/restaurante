@@ -18,7 +18,7 @@ class direccion extends StatelessWidget {
           child: Column(
             children: [
               Spacer(flex: 2),
-              titleText("Dirección LosGamers "),
+              titleText("DIRECCION LOSGAMERS"),
               Spacer(),
               subTitleText("la Mota "),
               subTitleText("calle 23a #43b-62"),
@@ -33,7 +33,7 @@ class direccion extends StatelessWidget {
               Spacer(),
               largeButton(() {
                 Navigator.pop(context);
-              }, Color.fromARGB(255, 224, 187, 20), "Regresar"),
+              }, Color.fromARGB(255, 224, 187, 20), "REGRESAR"),
               Spacer(flex: 2),
             ],
           ),
