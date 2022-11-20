@@ -1,0 +1,55 @@
+import 'package:crud_firebase/provider/user_provider.dart';
+import 'package:crud_firebase/views/home_page.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart'
+    show kIsWeb; //le decimos que queremos traer el bool kIsWeb
+import 'package:provider/provider.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  if (kIsWeb) {
+    //con esto sabemos si la plataforma usada es la web
+    await Firebase.initializeApp(
+      options: const FirebaseOptions(
+        apiKey: "AIzaSyBvBymhy1-Fuyft9zwF-fSRchl8EhjgdMM",
+        authDomain: "prueba-crud-392e8.firebaseapp.com",
+        projectId: "prueba-crud-392e8",
+        storageBucket: "prueba-crud-392e8.appspot.com",
+        messagingSenderId: "933697221289",
+        appId: "1:933697221289:web:3173422c74e8d576d52fb8",
+      ),
+    );
+  } else {
+    //O cualquier otra
+    await Firebase.initializeApp();
+  }
+  runApp(
+    MultiProvider(
+      //Usamos MultiProvider aunque de momento solo estemos usando 1 provider para User
+      providers: [
+        ChangeNotifierProvider(
+          create: (_) => UserProvider(),
+        ),
+      ],
+      child: const MyApp(),
+    ),
+  );
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Ejemplo crud + auth + provider',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.indigo,
+        brightness: Brightness.dark,
+      ),
+      home: const HomePage(),
+    );
+  }
+}
